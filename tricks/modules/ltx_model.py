@@ -6,7 +6,7 @@ import torch
 from comfy.ldm.lightricks.model import (
     BasicTransformerBlock,
     LTXVModel,
-    apply_rotary_emb,
+    #apply_rotary_emb,
     precompute_freqs_cis,
 )
 from comfy.ldm.lightricks.symmetric_patchifier import latent_to_pixel_coords
